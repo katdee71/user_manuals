@@ -29,11 +29,23 @@
   "model": "Euroset 2015 Desk Phone",
   "year": 2000,
   "category": "electronics",
-  "size": "1.1 MB",
+  "size": "1 MB",
   "slug": "siemens-euroset2015",
   "description": "Owner's manual for the Siemens Euroset 2015 desk phone.",
   "pages": 5,
   "language": "English",
+  "condition": "Excellent"
+}
+{
+  "brand": "Kerosun",
+  "model": "LC42 Laser Heater",
+  "year": 2016,
+  "category": "heating",
+  "size": "6 MB",
+  "slug": "kerosun-lc42",
+  "description": "Owner's manual for the Kerosun LC42 Laser Heater.",
+  "pages": 16,
+  "language": "Greek",
   "condition": "Excellent"
 }
 ]
