@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Manual Shelf — User Manual Archive</title>
+  <meta name="description" content="A personal archive of scanned user manuals, free to browse and download.">
+  <link rel="stylesheet" href="assets/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="site-title">
+      The Manual Shelf
+      <span>Personal archive of scanned user manuals</span>
+    </div>
+    <div class="search-wrap">
+      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="search" id="search" placeholder="Search brand, model, or category…" aria-label="Search manuals">
+    </div>
+  </header>
+
+  <nav class="filters" aria-label="Filter by category">
+    <button class="chip active" data-cat="all">All</button>
+    <button class="chip" data-cat="camera">Cameras</button>
+    <button class="chip" data-cat="audio">Audio</button>
+    <button class="chip" data-cat="appliance">Appliances</button>
+    <button class="chip" data-cat="electronics">Electronics</button>
+    <button class="chip" data-cat="vehicle">Vehicles</button>
+  </nav>
+
+  <p class="stats-bar" id="stats" aria-live="polite"></p>
+
+  <main class="grid" id="grid"></main>
+
+  <footer class="site-footer">
+    <p>Scanned and shared for archival and reference purposes. All manuals remain the property of their respective manufacturers.</p>
+  </footer>
+
+  <script src="assets/search.js"></script>
+</body>
+</html>

@@ -1,0 +1,26 @@
+[
+  {
+    "brand": "Canon",
+    "model": "AE-1 35mm SLR",
+    "year": 1976,
+    "category": "camera",
+    "size": "4.2 MB",
+    "slug": "canon-ae1-1976",
+    "description": "Complete owner's manual for the Canon AE-1, including shutter-priority AE operation, lens compatibility, and accessory guide.",
+    "pages": 64,
+    "language": "English",
+    "condition": "Good — minor foxing on cover"
+  },
+  {
+    "brand": "Sony",
+    "model": "TC-630 Reel-to-Reel Tape Recorder",
+    "year": 1971,
+    "category": "audio",
+    "size": "6.8 MB",
+    "slug": "sony-tc630-1971",
+    "description": "Service and owner's manual for the Sony TC-630 stereo reel-to-reel, covering heads, transport mechanism, and alignment.",
+    "pages": 48,
+    "language": "English",
+    "condition": "Excellent"
+  }
+]
