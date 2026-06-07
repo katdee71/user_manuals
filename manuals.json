@@ -23,4 +23,17 @@
     "language": "English",
     "condition": "Excellent"
   }
+,
+{
+  "brand": "Siemens",
+  "model": "Euroset 2015 Desk Phone",
+  "year": null,
+  "category": "electronics",
+  "size": "? MB",
+  "slug": "siemens-euroset2015",
+  "description": "Owner's manual for the Siemens Euroset 2015 desk phone.",
+  "pages": null,
+  "language": "English",
+  "condition": "Good"
+}
 ]
