@@ -47,5 +47,17 @@
   "pages": 16,
   "language": "Greek",
   "condition": "Excellent"
+},
+{
+  "brand": "Max",
+  "model": "T2019 Digital HD Receiver",
+  "year": 2021,
+  "category": "electronics",
+  "size": "6 MB",
+  "slug": "max",
+  "description": "Owner's manual for the Max T2019 Digital HD Receiver.",
+  "pages": 16,
+  "language": "Greek",
+  "condition": "Excellent"
 }
 ]
