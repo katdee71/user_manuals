@@ -39,7 +39,7 @@ async function init() {
 function render() {
   const q = document.getElementById('search').value.toLowerCase().trim();
   const filtered = allManuals.filter(m => {
-    const catMatch = activeFilter === 'all' || m.category === activeFilter;
+    const catMatch = activeFilter === 'all' || m.category.split(" ").includes(activeFilter);
     const qMatch = !q || [m.brand, m.model, m.category, String(m.year)].join(' ').toLowerCase().includes(q);
     return catMatch && qMatch;
   });
